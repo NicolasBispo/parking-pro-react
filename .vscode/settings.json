@@ -1,0 +1,153 @@
+{
+  "debug.onTaskErrors": "showErrors",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.addMissingImports": "explicit"
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "diffEditor.wordWrap": "on",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDelete": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "afterDelay",
+  "settingsSync.ignoredExtensions": ["coenraads.bracket-pair-colorizer-2"],
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[postcss]": {
+    "gitlens.codeLens.scopes": ["document"]
+  },
+  "material-icon-theme.folders.associations": {
+    "components": "components",
+    "useCase": "tools",
+    "repositories": "database",
+    "entities": "class",
+    "migrations": "interface",
+    "widgets": "components",
+    "front-angular": "font",
+    "front-react": "React-Components",
+    "front-vue": "vue",
+    "store": "Redux-store",
+    "actions": "redux-actions",
+    "reducers": "redux-reducer"
+  },
+  "files.associations": {
+    "*.css": "css",
+    ".env": "dotenv",
+    "*.js": "javascript",
+    "*.scss": "scss",
+    "*.ts": "typescript",
+    "*.tsx": "typescriptreact"
+  },
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.linkedEditing": true,
+  "workbench.colorTheme": "Winter is Coming (Dark Black - No Italics)",
+  "eslint.codeActionsOnSave.rules": null,
+  "redhat.telemetry.enabled": true,
+  "git.autofetch": true,
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.experimental.classRegex": [],
+  "material-icon-theme.activeIconPack": "vue_vuex",
+  "git.enableSmartCommit": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "symbols.hidesExplorerArrows": false,
+  // =================== CONFIG: eslint e prettier ===================
+  "eslint.format.enable": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "editor.inlineSuggest.enabled": true,
+  "git.confirmSync": false,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": true,
+    "javascript": true,
+    "python": true,
+    "javascriptreact": true
+  },
+  "editor.semanticHighlighting.enabled": false,
+  "eslint.validate": ["javascript", "typescriptreact", "javascriptreact"],
+  "[javascript]": {
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  // =================== CONFIG: terminal linux ===================
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.shell.linux": "bash",
+  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.showExitAlert": false,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+
+  // =================== CONFIG: editor ===================
+  "editor.rulers": [120, 120], // <== Linhas guias
+  "editor.fontSize": 12, // <== Tamanho da fonte
+  "editor.tabSize": 2, // <== Tamanho da tabulação
+  "editor.lineHeight": 26, // <== Altura da linha
+  "editor.fontFamily": "Fira Code", // <== Fonte
+  "editor.suggestSelection": "first", // <== Selecionar a primeira sugestão
+  "editor.fontLigatures": true, // <== Fonte com ligaduras
+  "editor.acceptSuggestionOnCommitCharacter": false, // <== Não aceitar sugestão ao digitar
+  "editor.accessibilitySupport": "off", // <== Desabilitar suporte a acessibilidade
+  "workbench.editor.labelFormat": "short", // <== Formato do nome do arquivo
+  "editor.parameterHints.enabled": true, // <== Desabilitar dicas de parâmetros
+  "editor.renderLineHighlight": "gutter", // <== Destacar linha atual
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "smooth",
+  "editor.stickyScroll.enabled": true,
+  "editor.minimap.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.wordWrap": "on",
+  // =================== CONFIG: typescript ===================
+  "typescript.tsserver.log": "off",
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // =================== CONFIG: javascript/node.js ===================
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // =================== CONFIG: react.js ===================
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact",
+    "javascriptreact": "javascriptreact",
+    "typescriptreact": "typescriptreact"
+  },
+  // =================== CONFIG: Basicas do vscode ===================
+  "workbench.startupEditor": "none", // <== Não abrir o arquivo de boas vindas
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "breadcrumbs.enabled": true, // <== Mostrar breadcrumbs
+  // =================== CONFIG: janelas, temas, icones ===================
+  "window.zoomLevel": 0, // <== Zoom da tela
+  "workbench.sideBar.location": "left", // <== Posição da barra lateral
+  "glassit.alpha": 241,
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "material-icon-theme", // <== Tema dos icones
+  "workbench.tree.indent": 20
+}
